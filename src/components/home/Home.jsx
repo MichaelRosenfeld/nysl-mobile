@@ -4,11 +4,11 @@ import Contact from "./Contact";
 
 function Home() {
     return (
-        <>
+        <div className="home">
             <Header />
             <Events />
             <Contact />
-        </>
+       </div>
     );
 }
 
