@@ -1,9 +1,13 @@
 import Header from "./Header";
+import Events from "./Events";
 
 function Home() {
     return (
-      <Header />
+        <>
+            <Header/>
+            <Events/>
+        </>
     );
 }
 
-export default Home
+export default Home;
