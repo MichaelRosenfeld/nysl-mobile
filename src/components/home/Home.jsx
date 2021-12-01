@@ -4,9 +4,9 @@ import Contact from "./Contact";
 
 const home =
     <div className="home">
-        <Header/>
-        <Events/>
-        <Contact/
+        <Header />
+        <Events />
+        <Contact />
     </div>;
 
 function Home() {
