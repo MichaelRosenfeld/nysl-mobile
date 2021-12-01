@@ -1,4 +1,4 @@
-const staticEvents=
+const staticEvents= (
     <div>
         <p className="date">August 4</p>
         <p className="description">NYSL Fundraiser</p>
@@ -7,6 +7,7 @@ const staticEvents=
         <p className="date">September 1</p>
         <p className="description">First Game of the Season (Check Game Schedule for details)</p>;
     </div>
+);
 
 function Events() {
     return (

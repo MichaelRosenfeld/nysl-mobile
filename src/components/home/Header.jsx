@@ -1,9 +1,10 @@
 const title = 'Northside Youth Soccer League';
 
-const header =
+const header = (
     <div className="header-container">
         <h1 className="title">{title}</h1>
-    </div>;
+    </div>
+);
 
 function Header() {
     return (
