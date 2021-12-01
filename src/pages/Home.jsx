@@ -1,6 +1,6 @@
-import Header from "./Header";
-import Events from "./Events";
-import Contact from "./Contact";
+import Header from "../components/Header";
+import Events from "../components/Events";
+import Contact from "../components/Contact";
 
 const home = (
     <div className="home">
