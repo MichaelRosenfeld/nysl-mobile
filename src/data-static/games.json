@@ -1,5 +1,158 @@
 {
   "games": {
+    "01_09_01_2021": {
+      "date": "09.01.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U1",
+        "U4"
+      ],
+      "location": "katzenmaier"
+    },
+    "02_09_01_2021": {
+      "date": "09.01.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U3",
+        "U2"
+      ],
+      "location": "greenbay"
+    },
+    "03_09_08_2021": {
+      "date": "09.08.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U5",
+        "U6"
+      ],
+      "location": "howard"
+    },
+    "04_09_08_2021": {
+      "date": "09.08.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U6",
+        "U1"
+      ],
+      "location": "marjorie"
+    },
+    "05_09_15_2021": {
+      "date": "09.15.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U2",
+        "U4"
+      ],
+      "location": "north"
+    },
+    "06_09_15_2021": {
+      "date": "09.15.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U3",
+        "U5"
+      ],
+      "location": "katzenmaier"
+    },
+    "07_09_22_2021": {
+      "date": "09.22.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U1",
+        "U3"
+      ],
+      "location": "south"
+    },
+    "08_09_22_2021": {
+      "date": "09.22.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U2",
+        "U6"
+      ],
+      "location": "howard"
+    },
+    "09_09_29_2021": {
+      "date": "09.29.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U4",
+        "U5"
+      ],
+      "location": "greenbay"
+    },
+    "10_10_06_2021": {
+      "date": "10.06.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U2",
+        "U5"
+      ],
+      "location": "marjorie"
+    },
+    "11_10_06_2021": {
+      "date": "10.06.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U1",
+        "U6"
+      ],
+      "location": "south"
+    },
+    "12_10_13_2021": {
+      "date": "10.13.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U3",
+        "U4"
+      ],
+      "location": "howard"
+    },
+    "13_10_13_2021": {
+      "date": "10.13.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U5",
+        "U1"
+      ],
+      "location": "greenbay"
+    },
+    "14_10_20_2021": {
+      "date": "10.20.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U6",
+        "U3"
+      ],
+      "location": "north"
+    },
+    "15_10_20_2021": {
+      "date": "10.20.21",
+      "time": "1:30 p.m.",
+      "teams": [
+        "U2",
+        "U4"
+      ],
+      "location": "marjorie"
+    },
+    "16_10_27_2021": {
+      "date": "10.27.21",
+      "time": "9:30 a.m.",
+      "teams": [
+        "U3",
+        "U1"
+      ],
+      "location": "katzenmaier"
+    },
+    "17_10_27_2021": {
+      "date": "10.27.21",
+      "time": "1:00 p.m.",
+      "teams": [
+        "U5",
+        "U6"
+      ],
+      "location": "katzenmaier"
+    }
   },
   "locations": {
     "katzenmaier": {
@@ -30,7 +183,7 @@
     "south": {
       "fullName": "South Elementary",
       "address": "2101 N. Fremont St., Chicago, IL 60614",
-      "mapUrl": "<<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.747439167602!2d-87.65351018382333!3d41.91978777078223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101%20N%20Fremont%20St%2C%20Chicago%2C%20IL%2060614%2C%20USA!5e0!3m2!1sde!2sde!4v1638362525294!5m2!1sde!2sde\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      "mapUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.747439167602!2d-87.65351018382333!3d41.91978777078223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101%20N%20Fremont%20St%2C%20Chicago%2C%20IL%2060614%2C%20USA!5e0!3m2!1sde!2sde!4v1638362525294!5m2!1sde!2sde\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
     }
   }
 }
