@@ -1,5 +1,7 @@
 @import "../components/header.css";
-
+@import "../components/events.css";
+@import "../components/contact.css";
 .Home {
     text-align: center;
+    font-family: 'Karla', sans-serif;
 }
