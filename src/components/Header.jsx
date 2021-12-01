@@ -1,8 +1,8 @@
 const title = 'Northside Youth Soccer League';
 
 const header = (
-    <div className="header-container">
-        <h1 className="title">{title}</h1>
+    <div className="HeaderContainer">
+        <h1 className="Title">{title}</h1>
     </div>
 );
 

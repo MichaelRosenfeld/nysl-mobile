@@ -3,7 +3,7 @@ import Events from "../components/Events";
 import Contact from "../components/Contact";
 
 const home = (
-    <div className="home">
+    <div className="Home">
         <Header />
         <Events />
         <Contact />
