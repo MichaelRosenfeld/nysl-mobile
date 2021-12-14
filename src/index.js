@@ -6,7 +6,7 @@ import {
     Route
 } from "react-router-dom";
 import App from './App';
-import Games from "./pages/Games";
+import Games from "./routes/Games";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -17,14 +17,13 @@ ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/games" element={<Games />} />
+                <Route path="/" element={<App />}> </Route>
+                <Route path="/games" element={<Games />}> </Route>
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
-document.getElementById('root')
-)
-;
+    document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

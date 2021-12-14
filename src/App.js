@@ -1,20 +1,21 @@
 import React from 'react';
 import './App.css';
-import Home from "./pages/Home";
-import {Link} from "react-router-dom";
+import Home from "./routes/Home";
+import { Link } from "react-router-dom";
+import {Container, Nav, Navbar} from "react-bootstrap";
 
 function App() {
     return (
         <>
+            <Navbar bg="light" variant="light">
+                <Container>
+                    <Navbar.Brand href="/">Home</Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Link to="/games">Games</Link>
+                    </Nav>
+                </Container>
+            </Navbar>
             <Home />
-            <nav
-                style={{
-                    borderBottom: "solid 1px",
-                    paddingBottom: "1rem"
-                }}
-            >
-                <Link to="/games">Games</Link> |{" "}
-            </nav>
         </>
     );
 }
