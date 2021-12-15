@@ -1,5 +1,7 @@
+import {Table} from "react-bootstrap";
+
 const secondTable = (
-    <table>
+<Table striped bordered hover size="sm">
         <tbody>
         <tr>
             <th className="FirstHeader">OCTOBER</th>
@@ -56,7 +58,7 @@ const secondTable = (
             <td>1:00 p.m.</td>
         </tr>
         </tbody>
-    </table>
+    </Table>
 );
 
 function SecondTable() {
