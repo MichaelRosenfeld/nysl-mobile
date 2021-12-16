@@ -3,6 +3,7 @@ import Events from "../components/Events";
 import Contact from "../components/Contact";
 import NavBar from "../components/NavBar";
 
+
 const home = (
     <div className="Home">
         <Header />
@@ -21,3 +22,4 @@ function Home() {
 }
 
 export default Home;
+
