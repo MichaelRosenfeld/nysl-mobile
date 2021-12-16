@@ -1,5 +1,11 @@
 import {Table} from "react-bootstrap";
-
+// function  Table (props) {
+//     return({
+//         <tbody>
+//          <tr>{props.title}</tr>
+//         </tbody>
+//     })
+// }
 const firstTable = (
     <Table striped bordered hover size="sm">
         <tbody>
