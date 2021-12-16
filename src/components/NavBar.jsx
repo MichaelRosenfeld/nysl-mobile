@@ -1,13 +1,14 @@
+import React from "react";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import React from "react";
+import Button from 'react-bootstrap/Button'
 
 const navBar = (
     <Navbar className="NavBar" bg="light" variant="light">
         <Container>
-            <Navbar.Brand href="/">Home</Navbar.Brand>
             <Nav className="me-auto">
-                <Link to="/games">Games</Link>
+                <Button variant="outline-secondary"><Link to="/" className="NavLink">Home</Link></Button>
+                <Button variant="outline-secondary"><Link to="/games" className="NavLink">Games</Link></Button>
             </Nav>
         </Container>
     </Navbar>

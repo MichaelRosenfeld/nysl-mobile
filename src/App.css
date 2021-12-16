@@ -1,5 +1,1 @@
-@import "routes/Home.css";
-
-#root {
-    background-color: #DDDDDD;
-}
+@import "./pages/Home.css";
